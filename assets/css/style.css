@@ -1,0 +1,15 @@
+/*ACCUEIL ET PROFIL*/
+.info, .navbar, #connect, .submit, #msgs, #btn-home{
+  margin: 20px auto;
+}
+.info-membre{
+  border: 3px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*CONNEXION ET INSCRIPTION*/
+.login, .signup{
+  margin-top: 20px;
+}
