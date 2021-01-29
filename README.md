@@ -1,5 +1,5 @@
 # minichat
- C'est un site vitrine d'un restaurant fictif nommé BurgerCode.
+ Il s'agit d'un minichat dans lequel vous pouvez vous connecter pour discuter entre membres.
  
 ## Pour commencer
 1-Installer l'éditeur de texte choisi
