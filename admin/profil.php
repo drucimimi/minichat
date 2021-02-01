@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Mon Profil - Minichat</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    	<script src="../assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     	<link rel="stylesheet" href="../assets/css/style.css" />
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -63,8 +63,9 @@
 					));
 			?>
 			<script>
+			//Informe dans une boîte de dialogue que les modifications ont été prises en compte
 				alert("Les modifications de votre profil ont bien été effectuées.");
-				window.location.assign("profil.php");
+				window.location.assign("profil.php"); //redirection vers cette même page, une fois que l'utilisateur valide l'action
 			</script>
 			<?php 
 				}
